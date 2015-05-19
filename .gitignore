@@ -1,0 +1,8 @@
+*.lock
+.htaccess
+vendor
+.phalcon
+phpci
+var
+cache
+.idea
