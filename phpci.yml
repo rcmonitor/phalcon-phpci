@@ -36,8 +36,5 @@ test:
 
 complete:
 	mysql:
-#        host: "localhost"
-#        user: "root"
-#        pass: "john"
 		- "DROP DATABASE IF EXISTS test;"
 
