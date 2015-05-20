@@ -20,4 +20,9 @@ class InitialTest extends \PHPUnit_Framework_TestCase{
 	public function testOne(){
 		$this->assertEquals(1, 1, 'test failed');
 	}
+
+
+	public function testTwo(){
+		$this->assertEquals(1, 2, 'test completed');
+	}
 }
