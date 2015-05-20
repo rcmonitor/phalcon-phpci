@@ -22,4 +22,10 @@
 	timeoutForMediumTests="10"
 	timeoutForLargeTests="60"
 	verbose="false">
+	<groups>
+		<exclude>
+			<group>excluded</group>
+		</exclude>
+	</groups>
+
 </phpunit>
