@@ -35,7 +35,6 @@ test:
   grunt:
     task: "build"
 
-complete:
-  mysql:
-    - "DROP DATABASE IF EXISTS test;"
-
+#complete:
+#  mysql:
+#    - "DROP DATABASE IF EXISTS test;"
