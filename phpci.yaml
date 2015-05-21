@@ -24,7 +24,7 @@ test:
       - "tests/"
     run_from: "tests/"
     coverage: "tests/logs/coverage"
-#    path: "test/"
+    path: "tests/"
 
   php_mess_detector:
     allow_failures: true
