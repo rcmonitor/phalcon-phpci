@@ -23,9 +23,9 @@ class InitialTest extends \PHPUnit_Framework_TestCase{
 
 
 	/**
-	 * @group excluded
+	 * @group
 	 */
-//	public function testTwo(){
-//		$this->assertEquals(1, 2, 'test completed');
-//	}
+	public function testTwo(){
+		$this->assertEquals(1, 2, 'test completed');
+	}
 }
