@@ -19,11 +19,11 @@ setup:
 test:
   php_unit:
     config:
-      - "test/phpunit.xml"
+      - "tests/phpunit.xml"
     directory:
-      - "test/"
-    run_from: "test/"
-    coverage: "test/logs/coverage"
+      - "tests/"
+    run_from: "tests/"
+    coverage: "tests/logs/coverage"
 #    path: "test/"
 
   php_mess_detector:
