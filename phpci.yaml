@@ -24,7 +24,7 @@ test:
       - "tests/"
     run_from: "tests/"
     coverage: "tests/logs/coverage"
-    path: "tests/"
+#    path: "tests/"
 
   php_mess_detector:
     allow_failures: true
@@ -32,8 +32,8 @@ test:
     standard: "PSR2"
   php_cpd:
     allow_failures: true
-  grunt:
-    task: "build"
+#  grunt:
+#    task: "build"
 
 complete:
   mysql:
