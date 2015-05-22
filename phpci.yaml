@@ -22,7 +22,7 @@ test:
       - "tests/phpunit.xml"
     directory:
       - "tests/"
-    run_from: "tests/"
+#    run_from: "tests/"
     coverage: "tests/logs/coverage"
 #    path: "tests/"
 
